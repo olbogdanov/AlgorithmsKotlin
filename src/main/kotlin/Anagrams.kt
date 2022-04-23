@@ -37,7 +37,3 @@ fun main() {
     assertFalse(anagrams2("ab", "baa"))
     assertFalse(anagrams2("baa", "ab"))
 }
-
-class ABC {
-
-}
