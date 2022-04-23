@@ -18,5 +18,5 @@ fun anagrams(str1: String, str2: String): Boolean {
 }
 
 fun main() {
-    println(anagrams("b aBx!", ",  babx"))
+    println(anagrams("b a3Bx!", ",  3babx"))
 }
