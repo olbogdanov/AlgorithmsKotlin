@@ -15,6 +15,19 @@ fun steps(n: Int) {
     }
 }
 
+fun steps2(n: Int) {
+    fun rec(step: Int) {
+        if (step < 0) {
+            return
+        }
+        val stair = n - step
+        println("#".repeat(stair) + " ".repeat(step))
+        rec(step-1)
+    }
+    rec(n)
+}
+
 fun main() {
     steps(3)
+    steps2(3)
 }
